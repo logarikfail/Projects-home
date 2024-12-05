@@ -1,0 +1,43 @@
+body{
+
+    display: flex;
+    justify-content: center;
+}
+.s{
+font-family: Arial;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+display: flex;
+justify-content: center;
+color:#2F4F4F;
+ ;
+}
+
+.names{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap:wrap;
+    gap:30px;
+    min-width: 445px;
+    max-width: 890PX;
+    position: relative;
+    top: 30px;
+    
+    
+}
+.name{
+    
+    width: 200px;
+    height: 231px;
+    
+}
+
+
+.names .nambe {
+position: absolute;
+
+left: 158px;
+}
